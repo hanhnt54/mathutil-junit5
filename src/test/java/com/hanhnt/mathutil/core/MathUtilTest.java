@@ -5,11 +5,10 @@
 package com.hanhnt.mathutil.core;
 
 import static com.hanhnt.mathutil.core.MathUtil.*;
-// import static là dành riêng cho hàm statuc
+// import static là dành riêng cho hàm static
 //gọi hàm mà bỏ qua tên class
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.function.Executable;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
 
@@ -28,7 +27,7 @@ public class MathUtilTest {
                                 {2, 2},
                                 {5, 120},
                                 {6, 720},
-                                {4, 24}        
+                                {7, 24}        
         };              
                 }
     @ParameterizedTest
